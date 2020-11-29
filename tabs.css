@@ -1,0 +1,18 @@
+[data-tab-content] {
+  display: none;
+}
+[data-tab-content].active{
+  display: block;
+}
+.tab-list{
+  margin: 0;
+  padding: 0;
+}
+.tab-list li {
+  display: inline-block;
+  padding:5px 10px;  
+  cursor: pointer;
+}
+.tab-list li.active {
+  border-bottom: solid 3px #e4e4e4;
+}

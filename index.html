@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./tabs.css" />
+</head>
+
+<body>
+  <div class="tab">    
+      <ul class="tab-list">
+        <li data-tab-target="#home">Home</li>
+        <li data-tab-target="#settings">Settings</li>
+        <li data-tab-target="#about">About</li>
+      </ul>    
+    <div class="tab-content">
+      <div id="home" data-tab-content>
+        <h1>Home</h1>
+        <p>HOME lorem ipsum dolor sit amet</p>
+      </div>
+      <div id="settings" data-tab-content>
+        <h1>Settings</h1>
+        <p>Settings lorem ipsum dolor sit amet</p>
+      </div>
+      <div id="about" data-tab-content>
+        <h1>About</h1>
+        <p>About lorem ipsum dolor sit amet</p>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./tabs.js"></script>
+
+</body>
+
+</html>
